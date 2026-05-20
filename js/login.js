@@ -4,7 +4,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
     const username = document.getElementById("username").value.trim();
     const password = document.getElementById("password").value.trim();
 
-    const res = await fetch("https://herisusanta.my.id/javalogin/api/auth.php", {
+    const res = await fetch("https://azkiah755-cmyk.github.io/travelwithyaa/", {
         method: "POST",
         headers: {
             "Content-Type": "application/x-www-form-urlencoded"
